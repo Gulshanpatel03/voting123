@@ -1,0 +1,16 @@
+body
+{
+background-color:green;
+border:2px solid white;
+width:700px;
+
+
+}
+.image1
+{
+	float:left;
+}
+.image2
+{
+	float:right;
+}

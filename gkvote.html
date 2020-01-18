@@ -1,0 +1,42 @@
+<html>
+<head>
+  <title> VOTING BOOTH</title>
+<script type="text/javascript">
+var voteA = 0;
+var voteB = 0;
+function voteCandidateA(){
+voteA = voteA +1;
+document.getElementById('voteA').innerHTML = voteA;
+}
+
+function voteCandidateB(){
+voteB = voteB +1;
+document.getElementById('voteB').innerHTML = voteB;
+}
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="pk.css">
+
+</head>
+<body>
+
+
+
+
+<div class="image1">
+<div id="voteA">  <p>    0  </p></div>
+<img src="C:\Users\G-TECH\Desktop\rv\congres.jpg" alt="loading" style="width:200px;height:200px;">
+<button onclick="voteCandidateA();">CONGRES</button>
+</div>
+
+
+<div class="image2">
+<div id="voteB">  <p>    0  </p></div>
+<img src="C:\Users\G-TECH\Desktop\rv\bjp.jpg" alt="loading" style="width:200px;height:200px;">
+<button onclick="voteCandidateB();">B J P</button>
+</div>
+
+<h1>VOTING</h1>
+</body>
+</html>
